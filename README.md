@@ -21,7 +21,10 @@
     - if attaching to them in some form isnt possible id need to block the sync point and 
       then reimplement all syncing features which i dont think is good
 
+
 - get a thing running that parses that json 
+
+
   - represent the data in appropriate datastructures
 - get a programm runing that can query those datastructures
 - get a TUI running with ratatui that presents the datastrucutres 
