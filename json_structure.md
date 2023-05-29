@@ -41,6 +41,20 @@ Can ditch bookmark, global Config, lastLocalSyncModelChange
 lastLocalSyncModelChange  is some number that id quite know about yet
 metric is the how did you feel thing
 
+### Improvement 
+
+follows entity structure but also comes with `hideDay` and `hiddenImprovementbannerItems`
+`./target/debug/superproductivity-cli | fx 'x["improvement"]["entities"][ x["improvement"]["ids"].last] '`
+```json
+{
+  "checkedDays": [],
+  "id": "ME5kVo8A5rlrhvV8ObgLI",
+  "isRepeat": true,
+  "title": "try no to expect perfection"
+}
+```
+
+
 ### Metric
 `x["metric"]["entities"]` => dates as keys with keys: 
 ```
