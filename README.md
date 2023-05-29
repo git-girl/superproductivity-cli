@@ -3,11 +3,21 @@
 ## Steps 
 - get a thing running that can output json from superproductivity 
   - there is the 2 minute backup thing but then you cant write to the data and get reads only
-  - [ ] understand how the three syncing methods work and how you can hook into them
-    - [ ] sync file 
-    - [ ] sync webdav
-    - [ ] sync dropbox
-      - via some authcode
+  - [x] understand how the three syncing methods work and how you can hook into them
+    - [x] sync file  
+      - syncs to given filepath ez
+      
+    - [ ] sync webdav  
+      - big uff i think its the same as with dropbox in that it requires you 
+        to sync back onto your device
+      - also alternative just sync it via local file that is in your 
+        drop box or webdav path
+
+    - [x] sync dropbox
+      - while this isnt great and syncs directly to dropbox you can attach to it via 
+        the syncing back to the device 
+      - app data is stored in `$HOME/Dropbox/Apps/super_productivity/super_productivity/sp.json`
+
     - if attaching to them in some form isnt possible id need to block the sync point and 
       then reimplement all syncing features which i dont think is good
 
