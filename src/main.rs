@@ -32,31 +32,4 @@ fn main() {
 
     println!("{}", superprod_json);
 
-    // Structure Tasks have some weir hashed ids for keys
-    // "Ieiivvhnb5vydGQlTH6PR": {
-    //      "_showSubTasksMode":2,
-    //      "attachments":[],
-    //      "created":1684756335502,
-    //      "doneOn":null,
-    //      "id":"Ieiivvhnb5vydGQlTH6PR",
-    //      "isDone":false,
-    //      "issueAttachmentNr":null,
-    //      "issueId":null,
-    //      "issueLastUpdated":null,
-    //      "issuePoints":null,
-    //      "issueType":null,
-    //      "issueWasUpdated":null,
-    //      "notes":"",
-    //      "parentId":null,
-    //      "plannedAt":null,
-    //      "projectId":null,
-    //      "reminderId":null,
-    //      "repeatCfgId":null,
-    //      "subTaskIds":[],
-    //      "tagIds":["TODAY"],
-    //      "timeEstimate":0,
-    //      "timeSpent":0,
-    //      "timeSpentOnDay":{},
-    //      "title":"Exercise loading the SOEP into Pandas"
-    // }
 }
